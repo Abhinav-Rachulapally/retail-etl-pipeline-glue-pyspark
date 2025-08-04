@@ -10,17 +10,6 @@ This project demonstrates an end-to-end ETL pipeline for retail sales data using
 - AWS IAM
 - Python
 
-## 📁 Folder Structure
-retail-etl-pipeline-glue-pyspark/
-│
-├── scripts/
-│   └── retail_glue_job.py
-│
-├── dashboard/
-│   └── sales_dashboard.png   (optional)
-│
-└── README.md
-
 ## 🚀 Pipeline Overview
 
 1. **Data Ingestion**: Raw sales data uploaded to S3 bucket
@@ -42,6 +31,21 @@ Metrics included:
 
 - Dataset: 1M+ sales records across 50 stores
 - Replaced Excel-based reporting → reduced latency by ~80%
+
+## 📁 Folder Structure
+retail-etl-pipeline-glue-pyspark/
+│
+├── scripts/
+│   └── retail_glue_job.py          ← PySpark job to clean & transform retail data
+│
+├── data/
+│   └── sample_sales.csv            ← Sample input data (optional)
+│
+├── dashboard/
+│   └── retail_dashboard.png        ← Screenshot of Power BI or other report (optional)
+│
+└── README.md                       ← Project overview, tech stack, pipeline steps, and author
+
 
 ## 🙋‍♂️ Author
 Abhinav Rachulapally  
