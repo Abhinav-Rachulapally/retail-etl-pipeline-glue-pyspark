@@ -13,6 +13,7 @@ This project demonstrates an end-to-end ETL pipeline for retail sales data using
 ## 📁 Folder Structure
 
 
+
 ## 🚀 Pipeline Overview
 
 1. **Data Ingestion**: Raw sales data uploaded to S3 bucket
